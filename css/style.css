@@ -60,6 +60,10 @@ header, .navbar {
     height: 90vh;
 }
 
+#mainSlider .carousel-item {
+    margin-top: 100px;
+}
+
 #mainSlider .carousel-caption {
     bottom: 30%;
 }
