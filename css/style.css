@@ -233,6 +233,7 @@ header, .navbar {
 /* Statistic */
 #statistic-area .container {
     background-color: #e4e4e4;
+    height: 800px;
 }
 
 .statistic-box {
@@ -240,12 +241,12 @@ header, .navbar {
     text-align: center;
 }
 
-#selector-btn-box {
+#statistic-btn-box {
     margin-bottom: 50px;
     text-align: center;
 }
 
-#statistic-area .selector-btn {
+#statistic-area .statistic-btn {
     color: #000;
     border: 1px solid #444;
     background-color: #ffa710;
@@ -258,7 +259,7 @@ header, .navbar {
     padding: 0 20px;
 }
 
-#statistic-area .selector-btn.active, #statistic-area .selector-btn:hover {
+#statistic-area .statistic-btn.active, #statistic-area .statistic-btn:hover {
     color: #fff;
     background-color: #52271b;
     border: 2px solid #f1d173;
