@@ -287,6 +287,7 @@ header, .navbar {
 
 .form .btn {
     background-color: #ffa710;
+    border: none;
 }
 
 .form a {
