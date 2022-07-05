@@ -224,6 +224,26 @@ header, .navbar {
     font-size: 22px;
 }
 
+.form {
+    background-image: linear-gradient( to right, #52271b, hsl(38, 92%, 27%));
+    padding: 5px 24px;
+    border-radius: 10px;
+}
+
+.form p, .form label {
+    letter-spacing: .05em;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form .btn {
+    background-color: #ffa710;
+    color: #000;
+}
+
 /* Map */
 .box-map{
     overflow:hidden;
@@ -231,7 +251,7 @@ header, .navbar {
     position:relative;
     height:0;
 }
-
+ 
 .box-map iframe{
     left:0;
     top:0;
