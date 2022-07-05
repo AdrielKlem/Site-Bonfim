@@ -117,13 +117,17 @@ header, .navbar {
 /* Card */
 
 #card-area {
-    height: 3em;
-}
+    height: 3em; 
+}                                            
 
 .card {
     height: 90%;
     transition:0.5s;
     cursor:pointer;
+} 
+
+.card img {
+    height: 80%;
 }
 
 #card-area > div [class^="col-"]{
@@ -136,21 +140,25 @@ header, .navbar {
     transition:1s;
     cursor:pointer;
 }
-.card-title i{  
+
+.card-title i {  
     font-size:15px;
     transition:1s;
     cursor:pointer;
     color:#ffa710
 }
-.card-title i:hover{
+
+.card-title i:hover {
     transform: scale(1.25) rotate(100deg); 
     color:#18d4ca;
     
 }
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
+
 .card-text{
     height:80px;  
 }
@@ -167,12 +175,15 @@ header, .navbar {
     content: '';
     pointer-events: none;
 }
+
 .card::before {
     transform-origin: left top;
 }
+
 .card::after {
     transform-origin: right bottom;
 }
+
 .card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
     transform: scale3d(1, 1, 1);
 }
@@ -241,18 +252,21 @@ header, .navbar {
 
 .form .btn {
     background-color: #ffa710;
+}
+
+.form a {
     color: #000;
 }
 
 /* Map */
-.box-map{
+.box-map {
     overflow:hidden;
     padding-bottom:81.25%;
     position:relative;
     height:0;
 }
  
-.box-map iframe{
+.box-map iframe {
     left:0;
     top:0;
     height:100%;
