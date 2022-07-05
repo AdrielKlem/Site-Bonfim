@@ -230,6 +230,40 @@ header, .navbar {
     margin-right: 15px;
 }
 
+/* Statistic */
+#statistic-area .container {
+    background-color: #e4e4e4;
+}
+
+.statistic-box {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#selector-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#statistic-area .selector-btn {
+    color: #000;
+    border: 1px solid #444;
+    background-color: #ffa710;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#statistic-area .selector-btn.active, #statistic-area .selector-btn:hover {
+    color: #fff;
+    background-color: #52271b;
+    border: 2px solid #f1d173;
+}
+
 /* Contact */
 .contact-title {
     font-size: 22px;
