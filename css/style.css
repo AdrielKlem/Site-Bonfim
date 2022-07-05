@@ -141,20 +141,20 @@ header, .navbar {
     cursor:pointer;
 }
 
-.card-title i {  
+#curso-area .card-title i {  
     font-size:15px;
     transition:1s;
     cursor:pointer;
     color:#ffa710
 }
 
-.card-title i:hover {
+#curso-area .card-title i:hover {
     transform: scale(1.25) rotate(100deg); 
     color:#18d4ca;
     
 }
 
-.card:hover {
+#curso-area .card:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
 }
@@ -163,7 +163,7 @@ header, .navbar {
     height:80px;  
 }
 
-.card::before, .card::after {
+#curso-area .card::before, #curso-area .card::after {
     position: absolute;
     top: 0;
     right: 0;
@@ -263,6 +263,10 @@ header, .navbar {
     color: #fff;
     background-color: #52271b;
     border: 2px solid #f1d173;
+}
+
+.statistic-box .card {
+
 }
 
 /* Contact */
