@@ -114,25 +114,23 @@ header, .navbar {
     background-color: #000000;
 }
 
-/* Card */
-
-#card-area {
-    height: 3em; 
+/* Curso */
+#curso-area {
+    background-color: #e4e4e4;
 }                                            
 
 .card {
-    height: 90%;
+    height: 75%;
     transition:0.5s;
     cursor:pointer;
 } 
 
 .card img {
-    height: 80%;
+    height: 85%;
 }
 
-#card-area > div [class^="col-"]{
-    padding-left:5px;
-    padding-right:5px;
+#curso-area > div [class^="col-"]{
+    padding: 0 5px;
 }
 
 .card-title {  
