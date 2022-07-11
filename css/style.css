@@ -62,7 +62,7 @@ header, .navbar {
 
 /* Slide */
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 90vh;
+    height: 100%;
 }
 
 #mainSlider .carousel-item {
@@ -71,6 +71,11 @@ header, .navbar {
 
 #mainSlider .carousel-caption {
     bottom: 30%;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    transition: 0.4s;
+	background-color: #ffe4c4;
 }
 
 /*
