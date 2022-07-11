@@ -233,12 +233,23 @@ header, .navbar {
 /* Statistic */
 #statistic-area .container {
     background-color: #e4e4e4;
-    height: 800px;
+    height: auto;
+    padding: 10px 15px;
+}
+
+#statistic-area .main-title {
+    margin-top: 10px;
 }
 
 .statistic-box {
     margin-bottom: 30px;
     text-align: center;
+}
+
+.statistic-box .card {
+    border: 2px solid #000;
+    /* height: 50px; */
+    padding: 15px;
 }
 
 #statistic-btn-box {
