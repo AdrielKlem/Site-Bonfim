@@ -70,7 +70,7 @@ header, .navbar {
 }
 
 #mainSlider .carousel-caption {
-    bottom: 30%;
+    bottom: 10%;
 }
 
 .carousel-control-prev:hover, .carousel-control-next:hover {
