@@ -3,6 +3,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --main-color-brown: #52271b;
+    --second-color-brown: #69391D;
+    --main-color-yellow: #f1d173;
+    --second-color-yellow: #ffa710;
+    --main-title-color: #000;
+}
+
 .row {
     margin: 0;
 }
@@ -23,7 +31,7 @@ p, li {
 
 /* Navigation Bar */
 header, .navbar {
-    background-color: #52271b;
+    background-color: var(--main-color-brown);
 }
 
 .navbar {
@@ -93,7 +101,7 @@ header, .navbar {
 }*/
 
 .main-btn {
-    background-color: #f1d173;
+    background-color: var(--main-color-yellow);
     text-decoration: none;
     color: #000;
     text-transform: uppercase;
@@ -121,10 +129,11 @@ header, .navbar {
 
 /* Curso */
 #curso-area {
-    background-color: #e4e4e4;
+    background-color: var(--main-color-brown);
 }                                            
 
 .card {
+    background-color: var(--main-color-yellow);
     height: 500px;
     padding: 20px;
     margin: 10px;
@@ -166,11 +175,11 @@ header, .navbar {
 
 /* About */
 #about-area {
-    background-color: #f9f9f9;
+    background-color: var(--main-color-yellow);
 }
 
 .main-title {
-    color: #444;
+    color: var(--main-title-color);
     margin-bottom: 65px;
     font-size: 40px;
     text-align: center;
@@ -187,7 +196,7 @@ header, .navbar {
 
 .about-title {
     font-size: 17px;
-    color: #444;
+    color: var(--main-title-color);
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -207,8 +216,12 @@ header, .navbar {
 }
 
 /* Statistic */
+#statistic-area {
+    background-color: var(--main-color-brown);
+}
+
 #statistic-area .container {
-    background-color: #e4e4e4;
+    background-color: var(--second-color-brown);
     height: auto;
     padding: 10px 15px;
 }
@@ -236,7 +249,7 @@ header, .navbar {
 #statistic-area .statistic-btn {
     color: #000;
     border: 1px solid #444;
-    background-color: #ffa710;
+    background-color: var(--second-color-yellow);
     text-transform: none;
     margin: 0 15px;
     min-width: 100px;
@@ -247,14 +260,14 @@ header, .navbar {
 }
 
 #statistic-area .statistic-btn.active, #statistic-area .statistic-btn:hover {
+    background-color: var(--main-color-brown);
     color: #fff;
-    background-color: #52271b;
-    border: 2px solid #f1d173;
+    border: 2px solid var(--main-color-yellow);
 }
 
 /* Contact */
 #contact-area {
-    background-color: #f9f9f9;
+    background-color: var(--main-color-yellow);
 }
 
 .contact-title {
@@ -262,7 +275,7 @@ header, .navbar {
 }
 
 .form {
-    background-image: linear-gradient( to right, #52271b, hsl(38, 92%, 27%));
+    background-image: linear-gradient( to right, var(--main-color-brown), #845606);
     padding: 5px 24px;
     border-radius: 10px;
 }
@@ -277,7 +290,7 @@ header, .navbar {
 }
 
 .form .btn {
-    background-color: #ffa710;
+    background-color: var(--second-color-yellow);
     border: none;
 }
 
