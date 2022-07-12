@@ -1,9 +1,0 @@
-<i class="fa-solid fa-suitcase-medical"></i> <!--Nurse-->
-<i class="fa-solid fa-chart-line"></i> <!-- Adm -->
-<i class="fa-solid fa-briefcase"></i> <!-- Adm -->
-<i class="fa-regular fa-briefcase"></i> <!-- Adm -->
-<i class="fa-regular fa-rectangle-code"></i>
-
-
-icons flaticon
-<a href="https://www.flaticon.com/free-icons/first-aid-kit" title="first aid kit icons">First aid kit icons created by kosonicon - Flaticon</a>

@@ -134,6 +134,10 @@ header, .navbar {
     height: 85%;
 }
 
+.card-img {
+    padding: 35px;
+}
+
 #curso-area > div [class^="col-"]{
     padding: 0 5px;
 }
