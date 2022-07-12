@@ -125,49 +125,30 @@ header, .navbar {
 }                                            
 
 .card {
-    height: 75%;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
     transition:0.5s;
     cursor:pointer;
 } 
 
 .card img {
-    height: 85%;
-}
-
-.card-img {
-    padding: 50px;
-}
-
-#curso-area > div [class^="col-"]{
-    padding: 0 5px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin: 35px 0;
 }
 
 .card-title {  
-    font-size:15px;
+    font-size: 20px;
     transition:1s;
-    cursor:pointer;
-}
-
-#curso-area .card-title i {  
-    font-size:15px;
-    transition:1s;
-    cursor:pointer;
-    color:#ffa710
-}
-
-#curso-area .card-title i:hover {
-    transform: scale(1.25) rotate(100deg); 
-    color:#18d4ca;
-    
 }
 
 #curso-area .card:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
-}
-
-.card-text{
-    height:80px;  
 }
 
 #curso-area .card::before, #curso-area .card::after {
@@ -181,18 +162,6 @@ header, .navbar {
     background: rgba(255, 255, 255, 0.1);
     content: '';
     pointer-events: none;
-}
-
-.card::before {
-    transform-origin: left top;
-}
-
-.card::after {
-    transform-origin: right bottom;
-}
-
-.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
-    transform: scale3d(1, 1, 1);
 }
 
 /* About */
