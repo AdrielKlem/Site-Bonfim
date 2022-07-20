@@ -4,10 +4,18 @@ body {
 }
 
 :root {
-    --main-color-brown: #52271b;
+    /* Brown */
+    --main-color-brown: #592020;
     --second-color-brown: #69391D;
-    --main-color-yellow: #f1d173;
+    /* Yellow */
+    --main-color-yellow: #F2DF80;
     --second-color-yellow: #ffa710;
+    /* Blue */
+    --main-color-blue: #35D0F2;
+    /* Salmon */
+    --main-color-salmon: #F29188;
+    /* Color Default */
+    --main-color-gray: #F2F2F2;
     --main-title-color: #000;
 }
 
