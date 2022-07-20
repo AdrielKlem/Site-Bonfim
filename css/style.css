@@ -292,6 +292,20 @@ header, .navbar {
     color: #000;
 }
 
+/* Form > input (validation) */
+.form input:focus {
+    outline: 3px solid var(--main-color-blue) !important;
+}
+
+.form input:invalid, .form textarea:invalid {
+    outline: 3px solid #ff0000;
+}
+
+.form input:valid, .form textarea:valid {
+    outline: 3px solid #00ff22;
+
+}
+
 /* Map */
 .box-map {
     overflow: hidden;
