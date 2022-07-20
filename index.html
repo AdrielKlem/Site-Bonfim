@@ -280,20 +280,24 @@
                 <p>Deixe uma mensagem</p>
                 <div class="form-group">
                   <label for="username">Nome:</label>
-                  <input type="text" name="username" id="username" class="form-control">
+                  <input type="text" name="username" id="username" class="form-control" required>
                 </div>
                 <div class="form-group">
                   <label for="useremail">Email:</label>
-                  <input type="email" name="useremail" id="useremail" class="form-control">
+                  <input type="email" name="useremail" id="useremail" class="form-control" required>
                 </div>
                 <div class="form-group">
                   <label for="message">Mensagem:</label>
-                  <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
+                  <textarea name="message" id="message" cols="30" rows="10" class="form-control" required></textarea>
+                </div>
+                <div class="form-group">
+                  <div class="submit-btn">
+                    <input class="btn btn-primary" type="submit" value="Enviar">
+                  </div>
                 </div>
                 <div class="form-group">
                   <p>Ou entre em contato:</p>
-                  <button type="button" class="btn btn-primary"><a href="https://wa.me/552198463013"
-                      target="_blank">WhatsApp</a></button>
+                  <button type="button" class="btn btn-primary"><a href="https://wa.me/552198463013" target="_blank">WhatsApp</a></button>
                 </div>
               </form>
             </div>
