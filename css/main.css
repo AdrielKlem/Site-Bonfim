@@ -1,0 +1,38 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    /* Brown */
+    --main-color-brown: #592020;
+    --second-color-brown: #69391D;
+    /* Yellow */
+    --main-color-yellow: #F2DF80;
+    --second-color-yellow: #ffa710;
+    /* Blue */
+    --main-color-blue: #35D0F2;
+    /* Salmon */
+    --main-color-salmon: #F29188;
+    /* Color Default */
+    --main-color-gray: #F2F2F2;
+    --main-title-color: #000;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}

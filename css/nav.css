@@ -1,0 +1,38 @@
+/* Navigation Bar */
+header, .navbar {
+    background-color: var(--main-color-brown);
+}
+
+.navbar {
+    padding: 1.5em 0.5em;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #1889c8;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.container-fluid {
+    padding: 0;
+}

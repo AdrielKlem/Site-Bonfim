@@ -1,0 +1,32 @@
+/* Contact */
+#contact-area {
+    background-color: var(--main-color-yellow);
+}
+
+.contact-title {
+    font-size: 22px;
+}
+
+.form {
+    background-image: linear-gradient( to right, var(--main-color-brown), #845606);
+    padding: 5px 24px;
+    border-radius: 10px;
+}
+
+.form p, .form label {
+    letter-spacing: .05em;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form .btn {
+    background-color: var(--second-color-yellow);
+    border: none;
+}
+
+.form a {
+    color: #000;
+}
