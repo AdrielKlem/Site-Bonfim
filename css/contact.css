@@ -3,22 +3,35 @@
     background-color: var(--main-color-yellow);
 }
 
-.contact-title {
-    font-size: 22px;
-}
-
 .form {
     background-color: #fff;
     width: 400px;
     padding: 5px 24px;
+    width: 500px;
+    padding: 5px 40px;
     outline: 20px solid var(--second-color-salmon);
-    border-radius: 10px;
+    border-radius: 3.5em;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form .contact-title {
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .form p, .form label {
+    font-size: 0.95em;
     letter-spacing: .05em;
     color: #000;
 }
+
+.form input, .form textarea {
+    border: none;
+} 
 
 .form textarea {
     padding: 1em; 
@@ -30,19 +43,21 @@
     border-radius: 37px;
 }
 
-.form-group {
-    margin-bottom: 25px;
-}
-
 .form .btn {
     background-color: var(--second-color-yellow);
     border: none;
-}
-
-.form a {
     color: #000;
 }
 
+.form img {
+    width: 28px;
+}
+
+.form a {
+    font-size: 1.2em;
+    color: #000;
+}
+    
 /* Form > input (validation) 
 .form input:focus {
     outline: 3px solid var(--main-color-blue) !important;
