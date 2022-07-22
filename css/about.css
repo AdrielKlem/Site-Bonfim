@@ -1,8 +1,4 @@
 /* About */
-#about-area {
-    background-color: var(--main-color-yellow);
-}
-
 .main-title {
     color: var(--main-title-color);
     margin-bottom: 65px;

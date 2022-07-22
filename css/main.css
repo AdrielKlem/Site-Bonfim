@@ -1,8 +1,4 @@
 /* General */
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 :root {
     /* Brown */
     --main-color-brown: #592020;
@@ -19,6 +15,12 @@ body {
     --main-color-gray: #f2f2f2;
     --main-title-color: #000;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--second-color-salmon);
+}
+
 
 .row {
     margin: 0;

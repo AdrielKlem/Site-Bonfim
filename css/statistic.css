@@ -1,8 +1,4 @@
 /* Statistic */
-#statistic-area {
-    background-color: var(--main-color-brown);
-}
-
 #statistic-area .container {
     background-color: var(--second-color-brown);
     height: auto;

@@ -1,8 +1,4 @@
 /* Curso */
-#curso-area {
-    background-color: var(--main-color-brown);
-}                                            
-
 .card {
     background-color: var(--main-color-yellow);
     height: 500px;
