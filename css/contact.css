@@ -9,19 +9,21 @@
 
 .form {
     background-color: #fff;
+    width: 400px;
     padding: 5px 24px;
+    outline: 20px solid var(--second-color-salmon);
     border-radius: 10px;
 }
 
 .form p, .form label {
     letter-spacing: .05em;
-    color: #fff;
+    color: #000;
 }
 
-.form textarea { 
+.form textarea {
+    padding: 1em; 
     resize: none; 
 }
-
 
 .form .form-control {
     background-color: var(--second-color-salmon);
@@ -40,3 +42,17 @@
 .form a {
     color: #000;
 }
+
+/* Form > input (validation) 
+.form input:focus {
+    outline: 3px solid var(--main-color-blue) !important;
+}
+
+.form input:invalid, .form textarea:invalid {
+    outline: 3px solid #ff0000;
+}
+
+.form input:valid, .form textarea:valid {
+    outline: 3px solid #00ff22;
+
+}*/
