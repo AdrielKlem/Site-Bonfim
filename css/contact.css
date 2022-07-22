@@ -76,9 +76,11 @@
 /* Map */
 .box-map {
     overflow: hidden;
-    padding-bottom: 98%;
+    /* padding-bottom: 98%; */
     position: relative;
-    height: 0;
+    height: 25em;
+    width: 30em;
+    border-radius: 2.5em;
 }
  
 .box-map iframe {
