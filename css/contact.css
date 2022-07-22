@@ -24,7 +24,7 @@
 
 
 .form .form-control {
-    background-color: #feebd7;
+    background-color: var(--second-color-salmon);
     border-radius: 37px;
 }
 

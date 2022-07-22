@@ -6,16 +6,17 @@ body {
 :root {
     /* Brown */
     --main-color-brown: #592020;
-    --second-color-brown: #69391D;
+    --second-color-brown: #69391d;
     /* Yellow */
-    --main-color-yellow: #F2DF80;
+    --main-color-yellow: #f2df80;
     --second-color-yellow: #ffa710;
     /* Blue */
-    --main-color-blue: #35D0F2;
+    --main-color-blue: #35d0f2;
     /* Salmon */
-    --main-color-salmon: #F29188;
+    --main-color-salmon: #f29188;
+    --second-color-salmon: #feebd7;
     /* Color Default */
-    --main-color-gray: #F2F2F2;
+    --main-color-gray: #f2f2f2;
     --main-title-color: #000;
 }
 
