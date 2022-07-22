@@ -8,7 +8,7 @@
 }
 
 .form {
-    background-image: linear-gradient( to right, var(--main-color-brown), #845606);
+    background-color: #fff;
     padding: 5px 24px;
     border-radius: 10px;
 }
@@ -16,6 +16,16 @@
 .form p, .form label {
     letter-spacing: .05em;
     color: #fff;
+}
+
+.form textarea { 
+    resize: none; 
+}
+
+
+.form .form-control {
+    background-color: #feebd7;
+    border-radius: 37px;
 }
 
 .form-group {
