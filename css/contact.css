@@ -91,30 +91,3 @@
     width: 100%;
     position: absolute;
 }
-
-/* Shape Divider 
-/* Brown 
-#contact-area .container {
-    padding: 0;
-}
-
-.custom-shape-divider-top-brown {
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-top-brown svg {
-    position: relative;
-    display: block;
-    width: calc(130% + 1.3px);
-    height: 200px;
-}
-
-.custom-shape-divider-top-brown .shape-fill {
-    fill: #feebd7;
-}
-/* Yellow */
