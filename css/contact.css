@@ -9,6 +9,10 @@
     margin: 0 .5em 0 0;
 }
 
+.contact-title {
+    color: #fff;
+}
+
 /* Form */
 .form {
     background-color: #fff;
@@ -25,6 +29,7 @@
 }
 
 .form .contact-title {
+    color: #000;
     font-size: 22px;
     text-align: center;
     padding-top: 10px;
