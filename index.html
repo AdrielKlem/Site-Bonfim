@@ -1,343 +1,527 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos Tecnicos</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cursos Tecnicos</title>
-  
-  <!-- Font Google -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- BootStrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
+    <!-- BootStrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="./css/main.css" type="text/css">
-  <link rel="stylesheet" href="./css/nav.css" type="text/css">
-  <link rel="stylesheet" href="./css/slide.css" type="text/css">
-  <link rel="stylesheet" href="./css/course.css" type="text/css">
-  <link rel="stylesheet" href="./css/about.css" type="text/css">
-  <link rel="stylesheet" href="./css/statistic.css" type="text/css">
-  <link rel="stylesheet" href="./css/contact.css" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+    <link rel="stylesheet" href="./css/nav.css" type="text/css" />
+    <link rel="stylesheet" href="./css/slide.css" type="text/css" />
+    <link rel="stylesheet" href="./css/course.css" type="text/css" />
+    <link rel="stylesheet" href="./css/about.css" type="text/css" />
+    <link rel="stylesheet" href="./css/statistic.css" type="text/css" />
+    <link rel="stylesheet" href="./css/contact.css" type="text/css" />
 
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/bf7e05c402.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Script -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script src="js/statis.js" defer></script>
-  <script src="js/scroll.js" defer></script>
-</head>
+    <!-- Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/statis.js" defer></script>
+    <script src="js/scroll.js" defer></script>
+  </head>
 
-<body>
-  <header>
-    <div class="container" id="nav-container">
-      <!-- add essa class -->
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="navbar-brand" href="index.html">
-          <img id="logo" src="img/logo/Logo Bonfim Vetor 200.png" alt="Bonfim Cursos"> Bonfim Cursos
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" id="home-menu" href="#mainSlider">Home</a>
-            <a class="nav-item nav-link" id="services-menu" href="#curso-area">Cursos</a>
-            <a class="nav-item nav-link" id="about-menu" href="#about-area">Sobre</a>
-            <a class="nav-item nav-link" id="contact-menu" href="#contact-area">Contato</a>
-          </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <div class="container-fluid">
-      <!-- Slide -->
-      <div id="mainSlider" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-          <li data-target="#mainSlider" data-slide-to="1" class=""></li>
-          <li data-target="#mainSlider" data-slide-to="2" class=""></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="img/slideshow/capa 2.png" class="d-block w-100" alt="Projetos de e-commerce">
-            <!-- tirar classe d-none -->
-            <div class="carousel-caption d-md-block">
-              <a href="#" class="main-btn">Saiba mais</a>
+  <body>
+    <header>
+      <div class="container" id="nav-container">
+        <!-- add essa class -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+          <a class="navbar-brand" href="index.html">
+            <img
+              id="logo"
+              src="img/logo/Logo Bonfim Vetor 200.png"
+              alt="Bonfim Cursos"
+            />
+            Bonfim Cursos
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar-links"
+            aria-controls="navbar-links"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbar-links"
+          >
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" id="home-menu" href="#mainSlider"
+                >Home</a
+              >
+              <a class="nav-item nav-link" id="services-menu" href="#curso-area"
+                >Cursos</a
+              >
+              <a class="nav-item nav-link" id="about-menu" href="#about-area"
+                >Sobre</a
+              >
+              <a
+                class="nav-item nav-link"
+                id="contact-menu"
+                href="#contact-area"
+                >Contato</a
+              >
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="img/slideshow/capa 1.png" class="d-block w-100" alt="Projetos de e-commerce">
-            <!-- tirar classe d-none -->
-            <div class="carousel-caption d-md-block">
-              <a href="#" class="main-btn">Saiba mais</a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/slideshow/capa 2.png" class="d-block w-100" alt="Projetos de e-commerce">
-            <!-- tirar classe d-none -->
-            <div class="carousel-caption d-md-block">
-              <a href="#" class="main-btn">Saiba mais</a>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        </nav>
       </div>
-      <!-- Card -->
-      <div id="curso-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="main-title">Cursos</h3>
-            </div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class="card-img">
-                  <img src="img/icons/first-aid-box.png" class="card-img-top" alt="Imagem de Perfil 1">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Enfermagem</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <!-- Slide -->
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="1" class=""></li>
+            <li data-target="#mainSlider" data-slide-to="2" class=""></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/slideshow/capa 2.png"
+                class="d-block w-100"
+                alt="Projetos de e-commerce"
+              />
+              <!-- tirar classe d-none -->
+              <div class="carousel-caption d-md-block">
+                <a href="#" class="main-btn">Saiba mais</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class="card-img">
-                  <img src="img/icons/budget.png" class="card-img-top" alt="Imagem de Perfil 2">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Informática</h5>
-                  <p class="card-text">SEO COnsultant</p>
-                </div>
+            <div class="carousel-item">
+              <img
+                src="img/slideshow/capa 1.png"
+                class="d-block w-100"
+                alt="Projetos de e-commerce"
+              />
+              <!-- tirar classe d-none -->
+              <div class="carousel-caption d-md-block">
+                <a href="#" class="main-btn">Saiba mais</a>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card">
-                <div class="card-img">
-                  <img src="img/icons/laptop.png" class="card-img-top" alt="Imagem de Perfil 3">
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Adminstração</h5>
-                  <p class="card-text">Project Manager</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- About -->
-      <div id="about-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="main-title">Sobre Cursos</h3>
-            </div>
-            <div class="col-md-6">
-              <img src="img/teste/agencia.jpg" alt="Agência hDC" class="img-fluid">
-            </div>
-            <div class="col-md-6">
-              <h3 class="about-title">Bonfim pensando no seu futuro</h3>
-              <p>Nossos cursos são adaptados ao seu sucesso.</p>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quas possimus unde, earum, laboriosam.
-              </p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur dolore beatae placeat
-                voluptatibus error modi nam mollitia corporis repellendus. Laudantium voluptatem at qui repellat ab,
-                maxime tempore deleniti nobis!.</p>
-              <p>Veja outros diferenciais:</p>
-              <ul id="about-list">
-                <li><i class="fas fa-check" aria-hidden="true"></i>Utilização de Machine Learning</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Layout responsivo para todos os dispositivos</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Integração com diversos sistemas do mercado</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Sistema de pagamento próprio</li>
-                <li><i class="fas fa-check" aria-hidden="true"></i>Desenvolvimento com metodologia ágil</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Statistic -->
-      <div id="statistic-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h3 class="main-title">Escolha</h3>
-            </div>
-            <div class="col-md-12" id="statistic-btn-box">
-              <button class="main-btn statistic-btn active" id="all-btn">Todos</button>
-              <button class="main-btn statistic-btn" id="nur-btn">Enfermagem</button>
-              <button class="main-btn statistic-btn" id="inf-btn">Informática</button>
-              <button class="main-btn statistic-btn" id="adm-btn">Administração</button>
-            </div>
-            <div class="col-md-4 statistic-box nur">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Enfermagem</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box nur">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Enfermagem</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box nur">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Enfermagem</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box inf">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Informatica</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box inf">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Informatica</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box inf">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Informatica</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box adm">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Administração</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box adm">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Administração</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 statistic-box adm">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Administração</h5>
-                  <p class="card-text">Software Developer</p>
-                </div>
+            <div class="carousel-item">
+              <img
+                src="img/slideshow/capa 2.png"
+                class="d-block w-100"
+                alt="Projetos de e-commerce"
+              />
+              <!-- tirar classe d-none -->
+              <div class="carousel-caption d-md-block">
+                <a href="#" class="main-btn">Saiba mais</a>
               </div>
             </div>
           </div>
+          <a
+            class="carousel-control-prev"
+            href="#mainSlider"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#mainSlider"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-      </div>
-      <!-- Contact -->
-      <div id="contact-area">
-        <div class="custom-shape-divider-top-brown">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-          </svg>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="main-title">Contato</h3>
-            </div>
-            <div class="col-6" id="addres">
-              <h4 class="about-title contact-title">Endereço</h4>
-              <div class="addres addres-email">
-                <a href="mailto:atendimento@colegiobonfim.com.br" target="_blank" rel="noopener noreferrer">E-mail: atendimento@colegiobonfim.com.br</a>
+        <!-- Card -->
+        <div id="curso-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="main-title">Cursos</h3>
               </div>
-              <div class="addres addres-local">
-                <p>Rua Apucarana, 32 - Engenheiro Pedreira - Japeri</p>
-                <p>CNPJ 28447266/0001-04</p>
-              </div>
-              <div class="number">
-                <ul>
-                  <li>2664-1075</li>
-                  <li>2664-1598</li>
-                  <li>2664-1844</li>
-                  <li>9846-0131</li>
-                </ul>
-              </div>
-              <div class="box-map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.2554172728437!2d-43.61214348503848!3d-22.68153378512691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x995ac319163bcf%3A0xe8b3a36f7eb35662!2sEducand%C3%A1rio%20Senhor%20do%20Bonfim!5e0!3m2!1spt-BR!2sbr!4v1657041190453!5m2!1spt-BR!2sbr"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-            <div class="col-6" id="contact">
-              <form action="https://formsubmit.co/#" method="POST" class="form" id="form-contact">
-                <div class="form-group">
-                  <h4 class="about-title contact-title">Fale Conosco</h4>
-                </div>
-                <div class="form-group">
-                  <label for="name">Nome:</label>
-                  <input type="text" name="name" id="name" class="form-control" required maxlength="30" minlength="2">
-                </div>
-                <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" name="email" id="email" class="form-control" required maxlength="50">
-                </div>
-                <div class="form-group">
-                  <label for="message">Mensagem:</label>
-                  <textarea name="message" id="message" cols="30" rows="10" class="form-control" required maxlength="300"></textarea>
-                </div>
-                <div class="form-group">
-                  <div class="submit-btn">
-                    <input class="btn btn-primary" type="submit" value="Enviar">
-                    <input type="hidden" name="_next" id="confirm-send" value="https://youtube.com/">
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      src="img/icons/first-aid-box.png"
+                      class="card-img-top"
+                      alt="Imagem de Perfil 1"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Enfermagem</h5>
+                    <p class="card-text">Software Developer</p>
                   </div>
                 </div>
-                <div class="form-group">
-                  <p>Ou entre em contato:</p>
-                  <a href="https://wa.me/552198463013" target="_blank">
-                    <img src="img/icons/Whatsapp.png" alt="Ícone WhatsApp"> (21) 9999-9999</a>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      src="img/icons/budget.png"
+                      class="card-img-top"
+                      alt="Imagem de Perfil 2"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Informática</h5>
+                    <p class="card-text">SEO COnsultant</p>
+                  </div>
                 </div>
-              </form>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-img">
+                    <img
+                      src="img/icons/laptop.png"
+                      class="card-img-top"
+                      alt="Imagem de Perfil 3"
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Adminstração</h5>
+                    <p class="card-text">Project Manager</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- About -->
+        <div id="about-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="main-title">Sobre Cursos</h3>
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="img/teste/agencia.jpg"
+                  alt="Agência hDC"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">Bonfim pensando no seu futuro</h3>
+                <p>Nossos cursos são adaptados ao seu sucesso.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+                  quas possimus unde, earum, laboriosam.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquam pariatur dolore beatae placeat voluptatibus error modi
+                  nam mollitia corporis repellendus. Laudantium voluptatem at
+                  qui repellat ab, maxime tempore deleniti nobis!.
+                </p>
+                <p>Veja outros diferenciais:</p>
+                <ul id="about-list">
+                  <li>
+                    <i class="fas fa-check" aria-hidden="true"></i>Utilização de
+                    Machine Learning
+                  </li>
+                  <li>
+                    <i class="fas fa-check" aria-hidden="true"></i>Layout
+                    responsivo para todos os dispositivos
+                  </li>
+                  <li>
+                    <i class="fas fa-check" aria-hidden="true"></i>Integração
+                    com diversos sistemas do mercado
+                  </li>
+                  <li>
+                    <i class="fas fa-check" aria-hidden="true"></i>Sistema de
+                    pagamento próprio
+                  </li>
+                  <li>
+                    <i class="fas fa-check" aria-hidden="true"></i
+                    >Desenvolvimento com metodologia ágil
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Statistic -->
+        <div id="statistic-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">Escolha</h3>
+              </div>
+              <div class="col-md-12" id="statistic-btn-box">
+                <button class="main-btn statistic-btn active" id="all-btn">
+                  Todos
+                </button>
+                <button class="main-btn statistic-btn" id="nur-btn">
+                  Enfermagem
+                </button>
+                <button class="main-btn statistic-btn" id="inf-btn">
+                  Informática
+                </button>
+                <button class="main-btn statistic-btn" id="adm-btn">
+                  Administração
+                </button>
+              </div>
+              <div class="col-md-4 statistic-box nur">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Enfermagem</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box nur">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Enfermagem</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box nur">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Enfermagem</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box inf">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Informatica</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box inf">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Informatica</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box inf">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Informatica</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box adm">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Administração</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box adm">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Administração</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 statistic-box adm">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Administração</h5>
+                    <p class="card-text">Software Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Contact -->
+        <div id="contact-area">
+          <div class="shape-divider">
+            <svg
+            id="wave"
+            style="transform: rotate(0deg); transition: 0.3s"
+            viewBox="0 0 1440 270"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(242, 223, 128, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(242, 223, 128, 1)" offset="100%"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              style="transform: translate(0, 0px); opacity: 1"
+              fill="url(#sw-gradient-0)"
+              d="M0,216L40,180C80,144,160,72,240,40.5C320,9,400,18,480,36C560,54,640,81,720,94.5C800,108,880,108,960,121.5C1040,135,1120,162,1200,184.5C1280,207,1360,225,1440,225C1520,225,1600,207,1680,202.5C1760,198,1840,207,1920,180C2000,153,2080,90,2160,94.5C2240,99,2320,171,2400,166.5C2480,162,2560,81,2640,49.5C2720,18,2800,36,2880,58.5C2960,81,3040,108,3120,108C3200,108,3280,81,3360,76.5C3440,72,3520,90,3600,117C3680,144,3760,180,3840,189C3920,198,4000,180,4080,166.5C4160,153,4240,144,4320,135C4400,126,4480,117,4560,130.5C4640,144,4720,180,4800,184.5C4880,189,4960,162,5040,166.5C5120,171,5200,207,5280,225C5360,243,5440,243,5520,202.5C5600,162,5680,81,5720,40.5L5760,0L5760,270L5720,270C5680,270,5600,270,5520,270C5440,270,5360,270,5280,270C5200,270,5120,270,5040,270C4960,270,4880,270,4800,270C4720,270,4640,270,4560,270C4480,270,4400,270,4320,270C4240,270,4160,270,4080,270C4000,270,3920,270,3840,270C3760,270,3680,270,3600,270C3520,270,3440,270,3360,270C3280,270,3200,270,3120,270C3040,270,2960,270,2880,270C2800,270,2720,270,2640,270C2560,270,2480,270,2400,270C2320,270,2240,270,2160,270C2080,270,2000,270,1920,270C1840,270,1760,270,1680,270C1600,270,1520,270,1440,270C1360,270,1280,270,1200,270C1120,270,1040,270,960,270C880,270,800,270,720,270C640,270,560,270,480,270C400,270,320,270,240,270C160,270,80,270,40,270L0,270Z"
+            ></path>
+            <defs>
+              <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(89, 32, 32, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(89, 32, 32, 1)" offset="100%"></stop>
+              </linearGradient>
+            </defs>
+            <path
+              style="transform: translate(0, 50px); opacity: 0.9"
+              fill="url(#sw-gradient-1)"
+              d="M0,27L40,45C80,63,160,99,240,103.5C320,108,400,81,480,99C560,117,640,180,720,171C800,162,880,81,960,63C1040,45,1120,90,1200,112.5C1280,135,1360,135,1440,148.5C1520,162,1600,189,1680,189C1760,189,1840,162,1920,139.5C2000,117,2080,99,2160,85.5C2240,72,2320,63,2400,72C2480,81,2560,108,2640,117C2720,126,2800,117,2880,103.5C2960,90,3040,72,3120,76.5C3200,81,3280,108,3360,130.5C3440,153,3520,171,3600,180C3680,189,3760,189,3840,180C3920,171,4000,153,4080,153C4160,153,4240,171,4320,148.5C4400,126,4480,63,4560,45C4640,27,4720,54,4800,76.5C4880,99,4960,117,5040,108C5120,99,5200,63,5280,45C5360,27,5440,27,5520,22.5C5600,18,5680,9,5720,4.5L5760,0L5760,270L5720,270C5680,270,5600,270,5520,270C5440,270,5360,270,5280,270C5200,270,5120,270,5040,270C4960,270,4880,270,4800,270C4720,270,4640,270,4560,270C4480,270,4400,270,4320,270C4240,270,4160,270,4080,270C4000,270,3920,270,3840,270C3760,270,3680,270,3600,270C3520,270,3440,270,3360,270C3280,270,3200,270,3120,270C3040,270,2960,270,2880,270C2800,270,2720,270,2640,270C2560,270,2480,270,2400,270C2320,270,2240,270,2160,270C2080,270,2000,270,1920,270C1840,270,1760,270,1680,270C1600,270,1520,270,1440,270C1360,270,1280,270,1200,270C1120,270,1040,270,960,270C880,270,800,270,720,270C640,270,560,270,480,270C400,270,320,270,240,270C160,270,80,270,40,270L0,270Z"
+            ></path>
+            </svg>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="main-title">Contato</h3>
+              </div>
+              <div class="col-6" id="addres">
+                <h4 class="about-title contact-title">Endereço</h4>
+                <div class="addres addres-email">
+                  <a
+                    href="mailto:atendimento@colegiobonfim.com.br"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >E-mail: atendimento@colegiobonfim.com.br</a
+                  >
+                </div>
+                <div class="addres addres-local">
+                  <p>Rua Apucarana, 32 - Engenheiro Pedreira - Japeri</p>
+                  <p>CNPJ 28447266/0001-04</p>
+                </div>
+                <div class="number">
+                  <ul>
+                    <li>2664-1075</li>
+                    <li>2664-1598</li>
+                    <li>2664-1844</li>
+                    <li>9846-0131</li>
+                  </ul>
+                </div>
+                <div class="box-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.2554172728437!2d-43.61214348503848!3d-22.68153378512691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x995ac319163bcf%3A0xe8b3a36f7eb35662!2sEducand%C3%A1rio%20Senhor%20do%20Bonfim!5e0!3m2!1spt-BR!2sbr!4v1657041190453!5m2!1spt-BR!2sbr"
+                    width="600"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+              <div class="col-6" id="contact">
+                <form
+                  action="https://formsubmit.co/#"
+                  method="POST"
+                  class="form"
+                  id="form-contact"
+                >
+                  <div class="form-group">
+                    <h4 class="about-title contact-title">Fale Conosco</h4>
+                  </div>
+                  <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      class="form-control"
+                      required
+                      maxlength="30"
+                      minlength="2"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="form-control"
+                      required
+                      maxlength="50"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      class="form-control"
+                      required
+                      maxlength="300"
+                    ></textarea>
+                  </div>
+                  <div class="form-group">
+                    <div class="submit-btn">
+                      <input
+                        class="btn btn-primary"
+                        type="submit"
+                        value="Enviar"
+                      />
+                      <input
+                        type="hidden"
+                        name="_next"
+                        id="confirm-send"
+                        value="https://youtube.com/"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <p>Ou entre em contato:</p>
+                    <a href="https://wa.me/552198463013" target="_blank">
+                      <img src="img/icons/Whatsapp.png" alt="Ícone WhatsApp" />
+                      (21) 9999-9999</a
+                    >
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
