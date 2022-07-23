@@ -66,6 +66,21 @@
     color: #000;
 }
 
+/* Form > input (validation) 
+.form input:focus {
+    outline: 3px solid var(--main-color-blue) !important;
+}
+
+.form input:invalid, .form textarea:invalid {
+    outline: 3px solid #ff0000;
+}
+
+.form input:valid, .form textarea:valid {
+    outline: 3px solid #00ff22;
+
+}*/
+
+
 /* Addres */
 .addres p, #addres .about-title, #addres .number {
     color: #fff;
@@ -81,28 +96,20 @@
 .addres {
     margin: 10px 0;
 }
-    
-/* Form > input (validation) 
-.form input:focus {
-    outline: 3px solid var(--main-color-blue) !important;
+
+/* Number */
+.number {
+    font-size: 1em;
+    list-style: none;
 }
-
-.form input:invalid, .form textarea:invalid {
-    outline: 3px solid #ff0000;
-}
-
-.form input:valid, .form textarea:valid {
-    outline: 3px solid #00ff22;
-
-}*/
 
 /* Map */
 .box-map {
     overflow: hidden;
     /* padding-bottom: 98%; */
     position: relative;
-    height: 25em;
-    width: 30em;
+    height: 15em;
+    width: 20em;
     border-radius: 2.5em;
 }
  
