@@ -1,17 +1,20 @@
 /* Divider Shape */
 .container-svg {
-    background-color: var(--second-color-salmon);
+    background-color: transparent;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    bottom: 155px;
-    left: 0;
 }
 
-.divider-shape {
-    /* width: 100%; */
-    height: 187px;
+.group-svg {
+    position: relative;
+    margin: 2em 0;
+}
+
+.container-svg-yellow, .container-svg-brown {
+    position: absolute;
+}
+
+.container-svg-yellow {
+    background-color: var(--second-color-salmon);
 }
 
 /* Contact */
