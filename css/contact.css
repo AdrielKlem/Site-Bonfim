@@ -4,12 +4,14 @@
     width: 100%;
 }
 
-.group-svg {
-    margin: 2em 0 2em 0;
+.group-svg, .container-svg-yellow, .container-svg-brown {
+    position: absolute;
 }
 
-.container-svg-yellow, .container-svg-brown {
-    position: absolute;
+.group-svg {
+    margin: 2em 0;
+    height: 5em;
+    overflow: hidden;
 }
 
 .container-svg-yellow {
