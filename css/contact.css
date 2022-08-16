@@ -10,8 +10,6 @@
 
 .group-svg {
     margin: 2em 0;
-    height: 5em;
-    overflow: hidden;
 }
 
 .container-svg-yellow {
@@ -22,6 +20,7 @@
 #contact-area {
     background-color: var(--main-color-brown);
     margin-top: 2.5em;
+    padding: 8.5em 0;
 }
 
 #contact-area img {
