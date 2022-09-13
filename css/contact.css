@@ -43,15 +43,21 @@
     border-radius: 3.5em;
 }
 
-.form::before {
-    content: '';
+#contact-area .contact-information{
+    z-index: 1;
+}
+
+#contact-area #contact::after {
+    content: "";
     position: relative;
-    top: 0;
-    left: -10px;
-    background-color: #ff0000;
+    bottom: 49em;
+    right: 6em;
+    background-color: var(--main-color-blue);
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    display: block;
+    z-index: -1;
 }
 
 .form-group {
