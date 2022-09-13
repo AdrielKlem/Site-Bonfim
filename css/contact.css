@@ -136,12 +136,13 @@
 /* Number */
 #contact-area .number-list ul {
     width: 160px;
-    padding: 0;
+    padding: 1em 0;
 }
 
 #contact-area .number-list .number {
     font-size: 1.5em;
     list-style: none;
+    margin: 1em 0;
 }
 
 /* Map */
