@@ -134,8 +134,13 @@
 }
 
 /* Number */
-.number {
-    font-size: 1em;
+#contact-area .number-list ul {
+    width: 160px;
+    padding: 0;
+}
+
+#contact-area .number-list .number {
+    font-size: 1.5em;
     list-style: none;
 }
 
