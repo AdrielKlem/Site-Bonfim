@@ -32,6 +32,10 @@
     color: #fff;
 }
 
+#contact-area .contact-information{
+    z-index: 1;
+}
+
 /* Form */
 .form {
     background-color: #fff;
@@ -43,22 +47,6 @@
     border-radius: 3.5em;
 }
 
-#contact-area .contact-information{
-    z-index: 1;
-}
-
-#contact-area .box-map::after {
-    content: "";
-    position: relative;
-    bottom: 0;
-    right: 0;
-    background-color: var(--main-color-yellow);
-    width: 170px;
-    height: 0;
-    border-radius: 50%;
-    display: block;
-    z-index: none;
-}
 #contact-area #contact::after {
     content: "";
     position: relative;
@@ -167,4 +155,17 @@
     height: 100%;
     width: 100%;
     position: absolute;
+}
+
+#contact-area .box-map::after {
+    content: "";
+    position: relative;
+    bottom: 0;
+    right: 0;
+    background-color: var(--main-color-yellow);
+    width: 170px;
+    height: 0;
+    border-radius: 50%;
+    display: block;
+    z-index: none;
 }
