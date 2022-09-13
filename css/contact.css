@@ -146,20 +146,18 @@
 
 /* Map */
 .box-map {
-    overflow: hidden;
-    /* padding-bottom: 98%; */
     position: relative;
+    overflow: hidden;
     height: 15em;
     width: 20em;
     border-radius: 2.5em;
+    left: 12.5em;
+    bottom: 10em;
 }
  
 .box-map iframe {
-    left: 0;
-    top: 0;
     height: 100%;
     width: 100%;
-    position: absolute;
 }
 
 #contact-area .box-map::after {
