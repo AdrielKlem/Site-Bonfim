@@ -1,4 +1,4 @@
-/* Navigation Bar */
+/* Navigation Bar 
 header, .navbar {
     background-color: var(--main-color-brown);
 }
@@ -16,15 +16,6 @@ header, .navbar {
     width: 75px;
 }
 
-.navbar-brand {
-    padding: 0;
-    color: #1889c8;
-}
-
-.navbar-brand:hover {
-    color: #fff;
-}
-
 #navbar-links a {
     color: #ffffff;
 }
@@ -35,4 +26,24 @@ header, .navbar {
 
 .container-fluid {
     padding: 0;
+}
+
+/* Navigation Bonfim 
+.navbar-bonfim .navbar-nav {
+    background-color: var(--third-color-brown);
+    height: 10px;
+}*/
+
+header, .navbar {
+    background-color: var(--main-color-brown);
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-bonfim {
+    background-color: var(--third-color-brown);
+    width: 100%;
+    height: 5em;
 }
