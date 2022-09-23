@@ -50,11 +50,11 @@
 #contact-area #contact::after {
     content: "";
     position: relative;
-    bottom: 49em;
-    right: 6em;
+    bottom: 48em;
+    right: 5em;
     background-color: var(--main-color-blue);
     width: 170px;
-    height: 170px;
+    height: 145px;
     border-radius: 50%;
     display: block;
     z-index: -1;
@@ -163,13 +163,8 @@
 
 #contact-area .box-map::after {
     content: "";
-    position: relative;
-    bottom: 0;
-    right: 0;
-    background-color: var(--main-color-yellow);
-    width: 170px;
-    height: 0;
-    border-radius: 50%;
-    display: block;
-    z-index: none;
+    width: 100px;
+    height: 100px;
+    background-color: val(--second-color-yellow);
+    display: inline-block;
 }
