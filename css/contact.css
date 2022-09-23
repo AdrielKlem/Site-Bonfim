@@ -146,25 +146,37 @@
 }
 
 /* Map */
-.box-map {
+#contact-area #map {
+    height: 18em;
+    width: 23em;
     position: relative;
-    overflow: hidden;
-    height: 15em;
-    width: 20em;
-    border-radius: 2.5em;
-    left: 12.5em;
+    left: 10em;
     bottom: 17.5em;
+    border-radius: 25%;
+    z-index: 2;
+}
+
+#contact-area .box-map {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 25%;
 }
  
-.box-map iframe {
+#contact-area .box-map iframe {
     height: 100%;
     width: 100%;
 }
 
-#contact-area .box-map::after {
-    content: "";
-    width: 100px;
-    height: 100px;
-    background-color: val(--second-color-yellow);
-    display: inline-block;
+#contact-area #map::after {
+    content: '';
+    display: block;
+    height: 130px;
+    width: 150px;
+    background-color: var(--main-color-yellow);
+    border-radius: 50%;
+    position: relative;
+    right: 2em;
+    bottom: 5em;
+    z-index: -1;
 }
