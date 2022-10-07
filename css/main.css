@@ -7,3 +7,10 @@
 .container {
     padding: 70px 0;
 }
+ul, ol {
+    list-style: none;
+}
+    
+a {
+    text-decoration: none;
+}
