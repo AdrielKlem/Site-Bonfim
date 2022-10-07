@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color-brown: #481717;
+    --second-color-brown: #592020;
+}
+
 .container {
     padding: 70px 0;
 }
+
 ul, ol {
     list-style: none;
 }

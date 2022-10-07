@@ -24,7 +24,7 @@
 }
 
 .nav-out .nav-container {
-    background-color: #481717;
+    background-color: var(--primary-color-brown);
 }
 
 .nav-out .nav-container, .nav-out ul { 
@@ -34,7 +34,7 @@
 
 /* Nav-In */
 .nav-in .nav-container {
-    background-color: #592020;
+    background-color: var(--second-color-brown);
 }
 
 .nav-in .nav-container, .nav-in ul { 
