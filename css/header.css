@@ -1,11 +1,29 @@
 /* General */
 .nav-container ul {
     display: flex;
+    align-items: center;
 }
 
 .nav-container li {
     margin: 1em;
 }
 /* Nav-Out */
+.nav-out #logo {
+    width: 50px;
+}
 
+.nav-out .nav-container {
+    background-color: #481717;
+    border: 1px solid black;
+}
+
+.nav-out .nav-container, .nav-out ul { 
+    height: 2.5em;
+    padding: 1px;
+}
+
+.nav-out .nav-container a {
+    font-size: 12px;
+    color: #fff;
+}
 /* Nav-In */
