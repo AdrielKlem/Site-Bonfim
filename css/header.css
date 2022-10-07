@@ -2,11 +2,22 @@
 .nav-container ul {
     display: flex;
     align-items: center;
+    margin-left: 4em;
 }
 
 .nav-container li {
     margin: 1em;
 }
+
+.nav-container a {
+    font-size: 10px;
+    color: #fff;
+}
+
+.nav-container {
+    font-family: 'Montserrat';/*Baixar*/
+}
+
 /* Nav-Out */
 .nav-out #logo {
     width: 50px;
@@ -14,7 +25,6 @@
 
 .nav-out .nav-container {
     background-color: #481717;
-    border: 1px solid black;
 }
 
 .nav-out .nav-container, .nav-out ul { 
@@ -22,8 +32,17 @@
     padding: 1px;
 }
 
-.nav-out .nav-container a {
-    font-size: 12px;
+/* Nav-In */
+.nav-in .nav-container {
+    background-color: #592020;
+}
+
+.nav-in .nav-container, .nav-in ul { 
+    height: 3em;
+    padding: 1px;
+}
+
+.nav-in .nav-container a {
+    font-size: 1em;
     color: #fff;
 }
-/* Nav-In */
