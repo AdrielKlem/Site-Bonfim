@@ -13,6 +13,10 @@
     padding: 70px 0;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 ul, ol {
     list-style: none;
 }
