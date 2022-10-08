@@ -34,10 +34,12 @@
 
 /* Nav-In */
 .nav-in .nav-container {
-    background-color: var(--second-color-brown);
+    background: url(../svg/onda-banner.svg) no-repeat;
+    background-size: cover;
+    height: 11.5em;
 }
 
-.nav-in .nav-container, .nav-in ul { 
+.nav-in ul { 
     height: 3em;
     padding: 1px;
 }
