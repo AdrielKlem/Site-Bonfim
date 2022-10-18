@@ -21,11 +21,12 @@
 
 .nav-out {
     background-color: var(--primary-color-brown);
-    
+    padding: 10px;
 }
 
 .nav-out .nav-container {
-    
+    font-size: 10px;
+    line-height: 12px;
 }
 
 .nav-out .nav-container, .nav-out ul { 
