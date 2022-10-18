@@ -2,11 +2,11 @@
 .nav-container ul {
     display: flex;
     align-items: center;
-    margin-left: 4em;
+    margin-left: 6rem;
 }
 
 .nav-container li {
-    margin: 1em;
+    margin: 0 1rem;
 }
 
 .nav-container a {
@@ -20,8 +20,9 @@
 }
 
 .nav-out {
+    --padding-navout: 10px;
     background-color: var(--primary-color-brown);
-    padding: 10px;
+    padding: 0.65em 0;
 }
 
 .nav-out .nav-container {
@@ -31,7 +32,7 @@
 
 .nav-out .nav-container, .nav-out ul { 
     height: 2.5em;
-    padding: 1px;
+    padding: 0px;
 }
 
 /* Nav-In */
@@ -45,12 +46,12 @@
 }
 
 .nav-in .nav-container {
-    padding: 10px;
+    padding: 2.65em 0;
 }
 
 .nav-in ul { 
     height: 3em;
-    padding: 1px;
+    padding: 0;
 }
 
 .nav-in .nav-container a {
