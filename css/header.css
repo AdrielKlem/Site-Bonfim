@@ -19,8 +19,13 @@
     width: 50px;
 }
 
-.nav-out .nav-container {
+.nav-out {
     background-color: var(--primary-color-brown);
+    
+}
+
+.nav-out .nav-container {
+    
 }
 
 .nav-out .nav-container, .nav-out ul { 
