@@ -33,10 +33,17 @@
 }
 
 /* Nav-In */
-.nav-in .nav-container {
+.nav-in {
     background: url(../svg/onda-banner.svg) no-repeat;
     background-size: cover;
     height: 11.5em;
+    position: relative;
+    bottom: 5px;
+    z-index: -1;
+}
+
+.nav-in .nav-container {
+    padding: 10px;
 }
 
 .nav-in ul { 
