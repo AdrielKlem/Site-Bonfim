@@ -3,7 +3,11 @@
     flex-direction: row-reverse;
 }
 
-title
+.title {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
 
 .banner {
     background: url(../svg/banner-inicial.svg) no-repeat;
