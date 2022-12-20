@@ -1,0 +1,13 @@
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+title
+
+.banner {
+    background: url(../svg/banner-inicial.svg) no-repeat;
+    height: 20em;
+    width: 100%;
+    z-index: -1;
+}
