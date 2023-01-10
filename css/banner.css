@@ -16,4 +16,9 @@
     z-index: -1;
     position: relative;
     left: 0;
+    border: 2px solid #000;
+}
+
+.title {
+    border: 2px solid #000;
 }
