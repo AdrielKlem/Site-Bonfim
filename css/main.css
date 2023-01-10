@@ -7,6 +7,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 :root {
     --primary-color-brown: #481717;
     --second-color-brown: #592020;
