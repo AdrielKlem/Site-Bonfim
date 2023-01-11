@@ -19,9 +19,18 @@
 }
 
 .title {
-    padding: 0 10px;
+    margin: 70px 50px;
+    width: 40em;
 }
 
 .title h2 {
     font-size: 40px;
+}
+
+.title input {
+    background-color: #F29188;
+    border: none;
+    padding: 10px 20px;
+    font-size: 23px;
+    border-radius: 10px;
 }
