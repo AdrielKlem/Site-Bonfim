@@ -1,22 +1,22 @@
 main .container-banner {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 35px;
+    /* display: flex;
+    flex-direction: row-reverse; */
+    padding-top: 15px;
 }
 
 .title {
     position: relative;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 .title {
-    width: 50em;
-    margin-left: 110px;
+    width: 0;
+    margin-left: 100px;
 }
 
 .title h2 {
-    font-size: 45px;
+    font-size: 50px;
 }
 
 .title input {
@@ -28,10 +28,9 @@ main .container-banner {
 }
 
 .banner {
-    background: url(../svg/banner-inicial.svg) no-repeat;
+    background: url(../svg/banner-inicial.svg) no-repeat right;
     height: 26em;
     width: 100%;
-    z-index: -1;
-    position: relative;
-    right: 200px;
+    right: 0;
+    /* border: 1px solid blue; */
 }
