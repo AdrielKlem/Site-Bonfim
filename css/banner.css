@@ -1,4 +1,4 @@
-.main {
+main .container-banner {
     display: flex;
     flex-direction: row-reverse;
 }
