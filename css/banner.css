@@ -1,7 +1,7 @@
 main .container-banner {
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 10px;
+    padding-top: 35px;
 }
 
 .title {
@@ -16,7 +16,7 @@ main .container-banner {
 }
 
 .title h2 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .title input {
@@ -33,5 +33,5 @@ main .container-banner {
     width: 100%;
     z-index: -1;
     position: relative;
-    left: 0;
+    right: 200px;
 }
