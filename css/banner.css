@@ -19,8 +19,9 @@
 }
 
 .title {
-    margin: 70px 50px;
-    width: 40em;
+    margin: 70px 0px;
+    width: 50em;
+    margin-left: 110px;
 }
 
 .title h2 {
