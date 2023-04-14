@@ -1,0 +1,103 @@
+/* Reset de estilos padrão */
+body,
+h1,
+h2,
+h3,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.curso {
+  margin-bottom: 20px;
+}
+
+/* Estilos específicos para cada seção */
+#perfil,
+#faq,
+#contato,
+#suporte {
+  background-color: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#perfil .btn {
+  background-color: #28a745;
+}
+
+#perfil .btn:hover {
+  background-color: #1a682c;
+}
+
+#faq .btn {
+  background-color: #ffc107;
+}
+
+#faq .btn:hover {
+  background-color: #b28904;
+}
+
+#contato .btn {
+  background-color: #dc3545;
+}
+
+#contato .btn:hover {
+  background-color: #912f36;
+}
+
+#suporte .btn {
+  background-color: #6c757d;
+}
+
+#suporte .btn:hover {
+  background-color: #4b545a;
+}
