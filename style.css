@@ -1,103 +1,91 @@
-/* Reset de estilos padrão */
-body,
-h1,
-h2,
-h3,
-p,
-a {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Estilos gerais */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 header {
   background-color: #007bff;
   color: #fff;
-  text-align: center;
-  padding: 60px 0;
+  padding: 20px;
 }
 
 h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
+  margin: 0;
 }
 
-p {
-  font-size: 18px;
-  margin-bottom: 20px;
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 10px;
+  text-decoration: none;
 }
 
 section {
-  padding: 40px;
+  padding: 40px 0;
 }
 
-h2 {
-  font-size: 24px;
+section h2 {
+  margin-top: 0;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
   margin-bottom: 20px;
+}
+
+section ul li h3 {
+  margin-top: 0;
 }
 
 .btn {
   display: inline-block;
-  padding: 12px 24px;
   background-color: #007bff;
   color: #fff;
-  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 10px;
   text-decoration: none;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-  background-color: #0056b3;
+form label,
+form textarea,
+form input[type="text"],
+form input[type="email"] {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
-.curso {
-  margin-bottom: 20px;
+form textarea {
+  height: 100px;
 }
 
-/* Estilos específicos para cada seção */
-#perfil,
-#faq,
-#contato,
-#suporte {
-  background-color: #fff;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+.suporte-info {
+  margin-top: 20px;
 }
 
-#perfil .btn {
-  background-color: #28a745;
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
 }
 
-#perfil .btn:hover {
-  background-color: #1a682c;
-}
-
-#faq .btn {
-  background-color: #ffc107;
-}
-
-#faq .btn:hover {
-  background-color: #b28904;
-}
-
-#contato .btn {
-  background-color: #dc3545;
-}
-
-#contato .btn:hover {
-  background-color: #912f36;
-}
-
-#suporte .btn {
-  background-color: #6c757d;
-}
-
-#suporte .btn:hover {
-  background-color: #4b545a;
+footer p,
+footer nav a {
+  color: #000;
+  margin-top: 10px;
+  text-decoration: none;
 }

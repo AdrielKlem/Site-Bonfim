@@ -1,69 +1,107 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Escola de Cursos</title>
+    <title>Escola XYZ - Cursos</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <header>
-      <h1>Bem-vindo à Escola de Cursos</h1>
-      <p>Seu futuro começa aqui!</p>
+      <h1>Escola XYZ</h1>
+      <nav>
+        <a href="#perfil">Perfil</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contato-suporte">Contato/Suporte</a>
+      </nav>
     </header>
-    <section id="cursos">
-      <h2>Nossos Cursos</h2>
-      <div class="curso">
-        <h3>Informática</h3>
-        <p>
-          Aprenda as habilidades essenciais de informática, incluindo
-          programação, bancos de dados e redes.
-        </p>
-      </div>
-      <div class="curso">
-        <h3>Enfermagem</h3>
-        <p>
-          Conheça os fundamentos da enfermagem, desde cuidados básicos até
-          procedimentos avançados.
-        </p>
-      </div>
-      <div class="curso">
-        <h3>Administração</h3>
-        <p>
-          Aprimore suas habilidades em gestão, liderança e planejamento
-          estratégico de negócios.
-        </p>
-      </div>
-    </section>
+
     <section id="perfil">
-      <h2>Perfil do Aluno</h2>
-      <p>
-        Crie um perfil de aluno para ter acesso a recursos exclusivos, como
-        notas e histórico de curso.
-      </p>
-      <a href="perfil.html" class="btn">Criar Perfil</a>
+      <div class="container">
+        <h2>Perfil</h2>
+        <p>
+          Bem-vindo à Escola XYZ! Oferecemos uma ampla variedade de cursos na
+          área de Informática, Enfermagem e Administração, com professores
+          experientes e materiais de ensino atualizados.
+        </p>
+        <p>
+          Escolha o curso que melhor se adequa aos seus interesses e objetivos
+          profissionais e embarque em uma jornada de aprendizado e crescimento!
+        </p>
+        <a href="#contato-suporte" class="btn">Entre em contato</a>
+      </div>
     </section>
+
     <section id="faq">
-      <h2>Perguntas Frequentes</h2>
-      <p>
-        Encontre respostas para as perguntas mais frequentes sobre nossos
-        cursos, certificados e matrículas.
-      </p>
-      <a href="faq.html" class="btn">Ver FAQ</a>
+      <div class="container">
+        <h2>FAQ</h2>
+        <p>Tire suas dúvidas sobre os cursos oferecidos pela Escola XYZ.</p>
+        <ul>
+          <li>
+            <h3>Qual é a duração dos cursos?</h3>
+            <p>
+              Os cursos têm duração média de 12 meses, com aulas semanais e
+              carga horária de 48 horas por curso.
+            </p>
+          </li>
+          <li>
+            <h3>Quais são os pré-requisitos para ingressar nos cursos?</h3>
+            <p>
+              Os pré-requisitos variam de acordo com cada curso. Para mais
+              informações, consulte a página específica de cada curso.
+            </p>
+          </li>
+          <li>
+            <h3>Os cursos oferecem certificados?</h3>
+            <p>
+              Sim, ao concluir um curso com sucesso, o aluno recebe um
+              certificado de conclusão emitido pela Escola XYZ.
+            </p>
+          </li>
+          <li>
+            <h3>É possível parcelar o pagamento dos cursos?</h3>
+            <p>
+              Sim, oferecemos opções de pagamento parcelado em até 12 vezes no
+              cartão de crédito.
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section id="contato">
-      <h2>Contato</h2>
-      <p>
-        Entre em contato conosco para obter mais informações sobre nossos cursos
-        e serviços.
-      </p>
-      <a href="contato.html" class="btn">Fale Conosco</a>
+
+    <section id="contato-suporte">
+      <div class="container">
+        <h2>Contato/Suporte</h2>
+        <p>
+          Se você tiver alguma dúvida, sugestão ou precisar de suporte técnico,
+          entre em contato conosco por meio do formulário abaixo ou pelos canais
+          de suporte indicados.
+        </p>
+        <form action="contato-suporte.php" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          <input type="submit" value="Enviar" class="btn" />
+        </form>
+        <div class="suporte-info">
+          <h3>Canais de suporte:</h3>
+          <p>E-mail: suporte@escolaxyz.com</p>
+          <p>Telefone: (11) 1234-5678</p>
+          <p>Horário de atendimento: de segunda a sexta, das 9h às 18h</p>
+        </div>
+      </div>
     </section>
-    <section id="suporte">
-      <h2>Suporte Técnico</h2>
-      <p>
-        Obtenha suporte técnico para acessar o ambiente virtual de aprendizagem
-        e resolver problemas técnicos.
-      </p>
-      <a href="suporte.html" class="btn">Obter Suporte</a>
-    </section>
+    <footer>
+      <div class="container">
+        <p>Escola XYZ &copy; 2023. Todos os direitos reservados.</p>
+        <nav>
+          <a href="#perfil">Perfil</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contato-suporte">Contato/Suporte</a>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
