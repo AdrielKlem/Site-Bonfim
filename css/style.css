@@ -1,91 +1,125 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+/* Reset de estilos */
+* {
   padding: 0;
+  margin: 0;
+}
+
+body,
+#footer {
+  /* text-align: center; */
+  background-color: #f8f8f8;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
-}
-
-header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 20px;
+  padding: 0 20px;
 }
 
 h1 {
-  margin: 0;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  color: #fff;
-  margin-left: 10px;
-  text-decoration: none;
-}
-
-section {
-  padding: 40px 0;
-}
-
-section h2 {
-  margin-top: 0;
-}
-
-section ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-section ul li {
+  font-size: 36px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
-section ul li h3 {
-  margin-top: 0;
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-.btn {
-  display: inline-block;
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
   background-color: #007bff;
   color: #fff;
-  padding: 10px 20px;
-  margin-top: 10px;
-  text-decoration: none;
+  cursor: pointer;
 }
 
-form label,
-form textarea,
-form input[type="text"],
-form input[type="email"] {
-  display: block;
-  margin-bottom: 10px;
-  width: 100%;
+form input[type="submit"]:hover {
+  background-color: #0056b3;
 }
 
-form textarea {
-  height: 100px;
+/* Estilos específicos de cada seção */
+#header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
 }
 
-.suporte-info {
-  margin-top: 20px;
+#header h1 {
+  font-size: 48px;
 }
 
-footer {
-  background-color: #f8f9fa;
-  padding: 20px;
-  text-align: center;
+#header p {
+  font-size: 24px;
+  margin-bottom: 0;
 }
 
-footer p,
-footer nav a {
-  color: #000;
-  margin-top: 10px;
-  text-decoration: none;
+#cursos {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+#contato-suporte {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    padding: 20px;
+  }
+
+  #header h1 {
+    font-size: 36px;
+  }
+
+  #header p {
+    font-size: 18px;
+  }
+
+  #footer {
+    padding: 10px;
+  }
+
+  form input,
+  form textarea {
+    padding: 5px;
+  }
 }
