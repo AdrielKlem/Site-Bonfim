@@ -37,6 +37,30 @@ p {
   margin-bottom: 0;
 }
 
+/* Estilos da navegação */
+.nav {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Estilos do Banner */
+#banner {
+  background-color: #000;
+  /* background-image: url("/img/banner-2.png"); */
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* ajuste a altura do banner conforme necessário */
+  text-align: center; /* ajuste o posicionamento do texto conforme necessário */
+  /* Outros estilos do banner */
+}
+
+#banner p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+
 /* Estilos dos cursos */
 #cursos {
   padding: 40px 0;
