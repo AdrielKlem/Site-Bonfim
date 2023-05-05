@@ -19,31 +19,43 @@ a {
 }
 
 /* Estilos do cabeçalho */
-#header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 20px 0;
-}
-
 #header .container {
+  max-width: none;
+  padding: 0;
+
   display: flex;
   flex-wrap: wrap;
 }
 
+#header .nav ul a,
+#header .nav ol a {
+  color: #fff;
+}
+
 #header .container .nav-external {
   width: 100vw;
+  padding: 10px 40px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background-color: #481717;
+
+  font-size: 12px;
 }
 
 #header .container .nav-main {
   width: 100vw;
+  padding: 20px 40px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  background-color: #592020;
+
+  font-size: 16px;
 }
 
 .logo {
