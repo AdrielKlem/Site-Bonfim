@@ -13,6 +13,11 @@ body {
   padding: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 /* Estilos do cabeçalho */
 #header {
   background-color: #007bff;
@@ -25,20 +30,18 @@ body {
   margin-bottom: 10px;
 }
 
-h1 {
-  font-size: 28px;
-  margin-top: 0;
-}
-
 p {
   font-size: 18px;
   margin-bottom: 0;
 }
 
 /* Estilos da navegação */
-.nav {
+.nav ul,
+.nav ol {
   text-decoration: none;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Estilos do Banner */
