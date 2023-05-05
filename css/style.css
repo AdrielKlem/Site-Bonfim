@@ -25,6 +25,27 @@ a {
   padding: 20px 0;
 }
 
+#header .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#header .container .nav-external {
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header .container .nav-main {
+  width: 100vw;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo {
   width: 100px;
   margin-bottom: 10px;
@@ -42,6 +63,9 @@ p {
   list-style: none;
   padding: 0;
   margin: 0;
+
+  display: flex;
+  gap: 35px;
 }
 
 /* Estilos do Banner */
