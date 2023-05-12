@@ -111,6 +111,10 @@ p {
   text-align: start;
 }
 
+#char-banner {
+  height: 350px;
+}
+
 /* Estilos dos cursos */
 #cursos {
   padding: 40px 0;
