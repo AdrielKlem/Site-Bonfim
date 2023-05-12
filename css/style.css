@@ -82,20 +82,33 @@ p {
 
 /* Estilos do Banner */
 #banner {
-  background-color: #000;
+  background: linear-gradient(90deg, #481717 25%, #fff);
   /* background-image: url("/img/banner-2.png"); */
   background-size: cover;
   background-position: center;
-  height: 300px; /* ajuste a altura do banner conforme necessário */
+  height: 450px; /* ajuste a altura do banner conforme necessário */
   text-align: center; /* ajuste o posicionamento do texto conforme necessário */
   /* Outros estilos do banner */
+
+  padding: 0 60px;
+
+  display: flex;
+  align-items: center;
 }
 
-#banner p {
+#banner h1 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #fff;
   font-size: 50px;
   font-weight: bold;
+  margin: 0;
+}
+
+.banner {
+  width: 630px;
+  /* height: 200px; */
+  /* border: 1px solid #ff0000; */
+  text-align: start;
 }
 
 /* Estilos dos cursos */
