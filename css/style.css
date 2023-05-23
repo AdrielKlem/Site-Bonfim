@@ -127,10 +127,17 @@ p {
 
 .card {
   flex-basis: 100%;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 5px;
+  background-color: none;
+}
+
+.card h3 {
+  text-align: center;
+}
+/* .card .content {
+} */
+
+.card img {
+  height: 100px;
 }
 
 h2 {
