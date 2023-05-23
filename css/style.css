@@ -86,7 +86,7 @@ p {
   /* background-image: url("/img/banner-2.png"); */
   background-size: cover;
   background-position: center;
-  height: 450px; /* ajuste a altura do banner conforme necessário */
+  height: none; /* ajuste a altura do banner conforme necessário */
   text-align: center; /* ajuste o posicionamento do texto conforme necessário */
   /* Outros estilos do banner */
 
