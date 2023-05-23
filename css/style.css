@@ -123,11 +123,27 @@ p {
 .cards {
   display: flex;
   gap: 20px;
+  background-color: #fff;
+}
+
+.cards:hover {
+  cursor: pointer;
+}
+
+.card::after {
+  position: absolute;
+  height: 70%;
+  top: 15%;
+  right: -1px;
+  width: 1px;
+  content: "";
+  background-color: rgba(83, 147, 80, 0.75);
 }
 
 .card {
   flex-basis: 100%;
-  background-color: none;
+  /* border-right: 1px solid #000; */
+  padding: 10px;
 }
 
 .card h3 {
